@@ -1,1 +1,39 @@
 @charset "UTF-8";
+.sub-area{
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+.common-area{
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+.red-area{
+  width: 300px;
+  background: #ff7b7b;
+}
+.main--area .sub-area:first-child{
+  margin-top: 0;
+}
+.blue-area{
+  background: #7b86ff;
+}
+.yellow-area{
+  width: 300px;
+  background: #fff27b;
+}
+.green-area{
+  background: #7bff91;
+}
+.pink-area{
+  width: 400px;
+  background: #ff7be2;
+}
+.orange-area{
+  width: 400px;
+  background: #ffc67b;
+}
+.lightblue-area{
+  background: #7bf2ff;
+}
